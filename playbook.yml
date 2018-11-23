@@ -1,0 +1,6 @@
+---
+- name: Installing Oracle Database
+  hosts: db_hosts
+  roles:
+    - oracle
+
